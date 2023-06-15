@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Bebas+Neue&family=Bree+Serif&family=Passion+One&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Passion One', cursive;;
+}
+
+navbar {
+    background-color: black;
+}
+
+.logo-link {
+    color: white;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+main {
+    padding: 5px;
+    background-color: #9575DE;
+    margin-top: 10px;
+    margin: 5px;
+}
+
+body {
+    background-color: #9575DE;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+}
+
+.principal-um,
+.principal-tres {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+    height: 300px;
+    width: 70px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.principal-dois {
+    background-color: transparent;
+    height: 300px;
+    width: 280px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+.principal-dois h2 {
+    opacity: 0.3;
+}
+
+.icon-redes:hover {
+    font-size: 3.5em!important;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--preto);
+}
+
+footer h2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--branco);
+}
+
+.principal-um img {
+    width: 50px;
+    height: 50px;
+}
+
+.principal-tres img {
+    width: 50px;
+    height: 50px;
+}
+
+.dois-filho {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+}
+
+.dois-filho img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.dois-filho p {
+    font-weight: bold;
+}
+
+/* SKILLS */
+
+.skills {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+    height: 200px;
+}
+
+.skills-filho {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.div-icon {
+    width: 60px;
+    margin: 2px;
+}
+
+.icon-facebook  {
+    color: blue;
+    font-size: 3em!important;
+}
+
+.icon-instagram {
+    color: red;
+    font-size: 3em!important;
+    margin-left: 2.5px;
+}
+
+.icon-twitter {
+    color: rgb(0, 195, 255);
+    font-size: 3em!important;
+}
+
+.icon-linkedin {
+    font-size: 3em!important;
+    margin-left: 2.5px;
+    color: blue;
+}
+
+.icon-github {
+    font-size: 3em!important;
+    color: black;
+}
+
+.icon-tiktok {
+    font-size: 3em!important;
+    color: black;
+}
+
+.icon-skills {
+    color: #0f0027 ;
+    font-size: 2.5em!important;
+    cursor: pointer;
+}
+
+.icon-skills:hover {
+    font-size: 3em!important;
+}
+
+.skills-texto {
+    display: flex;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.skills-texto h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
