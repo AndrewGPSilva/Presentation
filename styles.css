@@ -18,6 +18,7 @@ navbar {
 
 .logo-link {
     color: white;
+    font-size: 1.5em;
 }
 
 .logo img {
@@ -69,7 +70,7 @@ body {
 }
 
 .icon-redes:hover {
-    font-size: 3.5em!important;
+    font-size: 3em!important;
 }
 
 footer {
@@ -107,8 +108,8 @@ footer h2 {
     border-radius: 50%;
 }
 
-.dois-filho p {
-    font-weight: bold;
+.dois-filho p { 
+    font-size: 1.2em;
 }
 
 /* SKILLS */
@@ -137,33 +138,37 @@ footer h2 {
 
 .icon-facebook  {
     color: blue;
-    font-size: 3em!important;
+    font-size: 2em!important;
+    margin-left: 8px;
 }
 
 .icon-instagram {
     color: red;
-    font-size: 3em!important;
-    margin-left: 2.5px;
+    font-size: 2em!important;
+    margin-left: 8px;
 }
 
 .icon-twitter {
     color: rgb(0, 195, 255);
-    font-size: 3em!important;
+    font-size: 2em!important;
+    margin-left: 8px;
 }
 
 .icon-linkedin {
-    font-size: 3em!important;
-    margin-left: 2.5px;
+    font-size: 2em!important;
+    margin-left: 8px;
     color: blue;
 }
 
 .icon-github {
-    font-size: 3em!important;
+    font-size: 2em!important;
+    margin-left: 8px;
     color: black;
 }
 
 .icon-tiktok {
-    font-size: 3em!important;
+    font-size: 2em!important;
+    margin-left: 8px;
     color: black;
 }
 
@@ -174,7 +179,7 @@ footer h2 {
 }
 
 .icon-skills:hover {
-    font-size: 3em!important;
+    font-size: 2em!important;
 }
 
 .skills-texto {
