@@ -86,8 +86,10 @@ footer {
 }
 
 footer h2 {
+    padding: 10px;
     font-weight: 100;
-    font-size: 18px;
+    font-size: 25px;
+    margin-bottom: 0px!important;
 }
 
 .principal-um img {
@@ -206,10 +208,23 @@ footer h2 {
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    flex-wrap: wrap;
 }
 
 .divisao-texto h2 {
     margin-top: 10px;
     text-align: center;
     opacity: 0.5;
+}
+
+.img-space-animes:hover {
+    cursor: pointer;
+}
+
+.card-body p {
+    font-size: 1.2em;
+}
+
+.card {
+    margin-bottom: 8px;
 }
