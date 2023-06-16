@@ -68,6 +68,7 @@ body {
 
 .principal-dois h2 {
     opacity: 0.3;
+    cursor: pointer;
 }
 
 .principal-dois p {
@@ -125,7 +126,7 @@ footer h2 {
 .skills {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 80px;
     padding: 10px;
     height: 200px;
     background-color: rgb(255, 255, 255);
@@ -197,6 +198,7 @@ footer h2 {
     text-align: center;
     align-items: center;
     color: purple;
+    margin-left: 8px;
 }
 
 .skills-texto h2 {
@@ -227,4 +229,8 @@ footer h2 {
 
 .card {
     margin-bottom: 8px;
+}
+
+.navbar-nav {
+    text-align: end;
 }
