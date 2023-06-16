@@ -126,7 +126,7 @@ footer h2 {
 .skills {
     display: flex;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 90px;
     padding: 10px;
     height: 200px;
     background-color: rgb(255, 255, 255);
@@ -233,4 +233,10 @@ footer h2 {
 
 .navbar-nav {
     text-align: end;
+}
+
+.btn {
+    width: 200px;
+    background-color: purple;
+    font-size: 1.2em;
 }
