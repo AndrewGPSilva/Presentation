@@ -12,8 +12,8 @@ html {
     font-family: 'Passion One', cursive;;
 }
 
-navbar {
-    background-color: black;
+.navbar {
+    background-color: rgba(0, 0, 0, 0.753);
 }
 
 .logo-link {
@@ -28,18 +28,19 @@ navbar {
 
 main {
     padding: 5px;
-    background-color: #9575DE;
+    background-color: #000000;
     margin-top: 10px;
-    margin: 5px;
 }
 
 body {
-    background-color: #9575DE;
+    background-color: #0000007c;
 }
 
 .principal {
     display: flex;
     justify-content: center;
+    border: 0.2px solid black;
+    background-color: gray;
 }
 
 .principal-um,
@@ -63,10 +64,15 @@ body {
     padding: 10px;
     color: black;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .principal-dois h2 {
     opacity: 0.3;
+}
+
+.principal-dois p {
+    font-size: 1.2em;
 }
 
 .icon-redes:hover {
@@ -76,13 +82,13 @@ body {
 footer {
     display: flex;
     justify-content: center;
-    background-color: var(--preto);
+    background-color: black;
+    color: white;
 }
 
 footer h2 {
-    font-weight: 400;
+    font-weight: 100;
     font-size: 18px;
-    color: var(--branco);
 }
 
 .principal-um img {
@@ -96,20 +102,21 @@ footer h2 {
 }
 
 .dois-filho {
-    display: flex;
+    display: block;
     justify-content: space-between;
     text-align: center;
     padding: 10px;
 }
 
 .dois-filho img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
 }
 
 .dois-filho p { 
-    font-size: 1.2em;
+    margin-top: 15px;
+    font-size: 1.7em;
 }
 
 /* SKILLS */
@@ -117,9 +124,11 @@ footer h2 {
 .skills {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 2px;
     padding: 10px;
     height: 200px;
+    border: 0.2px solid black;
+    background-color: gray;
 }
 
 .skills-filho {
@@ -187,8 +196,7 @@ footer h2 {
     width: 250px;
     text-align: center;
     align-items: center;
-    color: white;
-    text-shadow: 2px 2px black;
+    color: rgb(0, 0, 0);
 }
 
 .skills-texto h2 {
