@@ -180,7 +180,7 @@ footer h2 {
 }
 
 .icon-skills {
-    color: #0f0027 ;
+    color: rgba(128, 0, 128, 0.651);
     font-size: 2.5em!important;
     cursor: pointer;
 }
@@ -194,10 +194,25 @@ footer h2 {
     width: 250px;
     text-align: center;
     align-items: center;
-    color: rgb(0, 0, 0);
+    color: purple;
 }
 
 .skills-texto h2 {
     font-size: 2em;
     font-weight: bold;
+}
+
+.projects {
+    display: block;
+    justify-content: center!important;
+    margin-top: 20px;
+}
+
+.projects h2 {
+    text-align: center;
+    opacity: 0.5;
+}
+
+.card {
+    margin-left: 32px;
 }
