@@ -203,16 +203,13 @@ footer h2 {
 }
 
 .projects {
-    display: block;
-    justify-content: center!important;
-    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
-.projects h2 {
+.divisao-texto h2 {
+    margin-top: 10px;
     text-align: center;
     opacity: 0.5;
-}
-
-.card {
-    margin-left: 32px;
 }
