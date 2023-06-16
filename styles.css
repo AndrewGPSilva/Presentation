@@ -81,15 +81,15 @@ body {
 
 footer {
     display: flex;
-    justify-content: center;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+    text-align: left;
 }
 
 footer h2 {
     padding: 10px;
     font-weight: 100;
-    font-size: 25px;
+    font-size: 13px;
     margin-bottom: 0px!important;
 }
 
@@ -189,7 +189,7 @@ footer h2 {
 }
 
 .icon-skills:hover {
-    font-size: 2em!important;
+    font-size: 3.2em!important;
 }
 
 .skills-texto {
@@ -228,6 +228,7 @@ footer h2 {
 }
 
 .card {
+    margin: 10px;
     margin-bottom: 8px;
 }
 
