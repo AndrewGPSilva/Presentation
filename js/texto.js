@@ -1,4 +1,4 @@
-const el = document.querySelector("#boas-vindas");
+const el = document.querySelector("#text-boas-vindas");
 const text= "MUNDO DO ANDREW";
 const interval = 300;
 

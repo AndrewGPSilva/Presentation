@@ -22,6 +22,10 @@ html {
     font-size: 1.5em;
 }
 
+.logo-link:hover {
+    color: red;
+}
+
 .logo img {
     width: 60px;
     height: 60px;
@@ -90,7 +94,7 @@ footer {
 footer h2 {
     padding: 10px;
     font-weight: 100;
-    font-size: 13px;
+    font-size: 15px;
     margin-bottom: 0px !important;
 }
 
@@ -243,23 +247,7 @@ footer h2 {
     font-size: 1.2em;
 }
 
-.boas-vindas {
+#text-boas-vindas {
     text-align: center;
-    font-size: 3em;
-}
-
-.boas-vindas h1 {
-    font-family: monospace;
-    margin: 10px;
-    color: red;
-}
-
-#botao { 
-    background-color: purple; 
-    font-size: 1.2em; 
-}
-
-.darkmode {
- background-color: black;
- color: white;
+    font-size: 2.5em;
 }
