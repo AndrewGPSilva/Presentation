@@ -332,6 +332,11 @@ textarea {
 
 @media (max-width: 768px) {
 
+    .form {
+        justify-content: center;
+        margin-left: 33px;
+    }
+
     .divisao-texto-about {
         margin-top: 35px;
     }
@@ -339,15 +344,14 @@ textarea {
     .sobre-infos {
         width: 300px;
         box-sizing: border-box;
-        margin-left: -20px;
         display: none;
     }
 
     .sobre-infos-ativado {
         width: 300px;
         box-sizing: border-box;
-        margin-left: -20px;
         display: block;
+        margin-left: 20px;
     }
 
     .sobre-form {
