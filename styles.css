@@ -9,7 +9,8 @@ html {
 * {
     padding: 0px;
     margin: 0px;
-    font-family: 'Passion One', cursive;;
+    font-family: 'Passion One', cursive;
+    ;
 }
 
 .navbar {
@@ -76,7 +77,7 @@ body {
 }
 
 .icon-redes:hover {
-    font-size: 3em!important;
+    font-size: 3em !important;
 }
 
 footer {
@@ -90,7 +91,7 @@ footer h2 {
     padding: 10px;
     font-weight: 100;
     font-size: 13px;
-    margin-bottom: 0px!important;
+    margin-bottom: 0px !important;
 }
 
 .principal-um img {
@@ -116,7 +117,7 @@ footer h2 {
     border-radius: 50%;
 }
 
-.dois-filho p { 
+.dois-filho p {
     margin-top: 15px;
     font-size: 1.7em;
 }
@@ -146,50 +147,50 @@ footer h2 {
     margin: 2px;
 }
 
-.icon-facebook  {
+.icon-facebook {
     color: blue;
-    font-size: 2em!important;
+    font-size: 2em !important;
     margin-left: 8px;
 }
 
 .icon-instagram {
     color: red;
-    font-size: 2em!important;
+    font-size: 2em !important;
     margin-left: 8px;
 }
 
 .icon-twitter {
     color: rgb(0, 195, 255);
-    font-size: 2em!important;
+    font-size: 2em !important;
     margin-left: 8px;
 }
 
 .icon-linkedin {
-    font-size: 2em!important;
+    font-size: 2em !important;
     margin-left: 8px;
     color: blue;
 }
 
 .icon-github {
-    font-size: 2em!important;
+    font-size: 2em !important;
     margin-left: 8px;
     color: black;
 }
 
 .icon-tiktok {
-    font-size: 2em!important;
+    font-size: 2em !important;
     margin-left: 8px;
     color: black;
 }
 
 .icon-skills {
     color: rgba(128, 0, 128, 0.651);
-    font-size: 2.5em!important;
+    font-size: 2.5em !important;
     cursor: pointer;
 }
 
 .icon-skills:hover {
-    font-size: 3.2em!important;
+    font-size: 3.2em !important;
 }
 
 .skills-texto {
@@ -240,4 +241,25 @@ footer h2 {
     width: 200px;
     background-color: purple;
     font-size: 1.2em;
+}
+
+.boas-vindas {
+    text-align: center;
+    font-size: 3em;
+}
+
+.boas-vindas h1 {
+    font-family: monospace;
+    margin: 10px;
+    color: red;
+}
+
+#botao { 
+    background-color: purple; 
+    font-size: 1.2em; 
+}
+
+.darkmode {
+ background-color: black;
+ color: white;
 }
