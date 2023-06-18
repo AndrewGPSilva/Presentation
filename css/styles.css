@@ -10,25 +10,6 @@ html {
     padding: 0px;
     margin: 0px;
     font-family: 'Passion One', cursive;
-    ;
-}
-
-.navbar {
-    background-color: rgba(255, 255, 255, 0.753);
-}
-
-.logo-link {
-    color: rgb(0, 0, 0);
-    font-size: 1.5em;
-}
-
-.logo-link:hover {
-    color: red;
-}
-
-.logo img {
-    width: 60px;
-    height: 60px;
 }
 
 main {
@@ -82,20 +63,6 @@ body {
 
 .icon-redes:hover {
     font-size: 3em !important;
-}
-
-footer {
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    text-align: left;
-}
-
-footer h2 {
-    padding: 10px;
-    font-weight: 100;
-    font-size: 15px;
-    margin-bottom: 0px !important;
 }
 
 .principal-um img {
@@ -237,10 +204,6 @@ footer h2 {
     margin-bottom: 8px;
 }
 
-.navbar-nav {
-    text-align: end;
-}
-
 .btn {
     width: 200px;
     background-color: purple;
@@ -250,4 +213,174 @@ footer h2 {
 #text-boas-vindas {
     text-align: center;
     font-size: 2.5em;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+footer h2 {
+    padding: 10px;
+    font-weight: 100;
+    font-size: 15px;
+    margin-bottom: 0px !important;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.753);
+}
+
+.navbar-nav {
+    text-align: end;
+}
+
+.navbar-link {
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+}
+
+.navbar-link:hover {
+    color: red;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.sobre-form {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.sobre {
+    margin-right: 50px;
+}
+
+.form {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+form {
+    display: block;
+    width: 300px;
+    text-align: center;
+}
+
+form button {
+    margin-top: 20px;
+    width: 140px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 2em;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+.sobre {
+    display: block;
+    padding: 20px;
+}
+
+.divisao-texto-about h2 {
+    text-align: center;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.divisao-texto-about {
+    margin-top: 50px;
+}
+
+.sobre p {
+    font-family: monospace;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.quer-me-conhecer {
+    display: none;
+}
+
+.divisao-linha {
+    display: none;
+}
+
+.divisao-linha-dois {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .divisao-texto-about {
+        margin-top: 35px;
+    }
+
+    .sobre-infos {
+        width: 300px;
+        box-sizing: border-box;
+        margin-left: -20px;
+        display: none;
+    }
+
+    .sobre-infos-ativado {
+        width: 300px;
+        box-sizing: border-box;
+        margin-left: -20px;
+        display: block;
+    }
+
+    .sobre-form {
+        display: block;
+        margin-top: 0px;
+    }
+
+    .quer-me-conhecer {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .divisao-linha {
+        display: block;
+        height: 3px;
+        background-color: black;
+        margin-bottom: 30px;
+    }
+
+    .divisao-linha-dois {
+        display: block;
+        height: 3px;
+        background-color: black;
+        margin-top: 30px;
+    }
+
+    .quer-me-conhecer {
+        color: purple;
+        font-family: monospace;
+        font-weight: 800;
+    }
+    
+    .quer-me-conhecer:hover {
+        background-color: rgba(128, 128, 128, 0.466);
+    }
 }
