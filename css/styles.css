@@ -334,7 +334,7 @@ textarea {
 
     .form {
         justify-content: center;
-        margin-left: 33px;
+        margin-left: 30px;
     }
 
     .divisao-texto-about {
@@ -351,7 +351,7 @@ textarea {
         width: 300px;
         box-sizing: border-box;
         display: block;
-        margin-left: 20px;
+        margin-left: 15px;
     }
 
     .sobre-form {
