@@ -247,7 +247,10 @@ footer h2 {
 }
 
 .navbar-link:hover {
-    color: red;
+    color: rgb(255, 0, 0);
+    background-color: rgba(128, 128, 128, 0.425);
+    border-radius: 20px;
+    transition: 1s;
 }
 
 .logo img {
