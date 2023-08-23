@@ -12,6 +12,10 @@ html {
   font-family: "Passion One", cursive;
 }
 
+[data-contexto="cor"] {
+  background-color: #000000;
+}
+
 main {
   padding: 5px;
   background-color: #ffffff;
