@@ -12,8 +12,8 @@ html {
   font-family: "Passion One", cursive;
 }
 
-[data-contexto="cor"] {
-  background-color: #000000;
+btMusic {
+  margin-left: 10px;
 }
 
 main {
@@ -471,3 +471,12 @@ textarea {
     background-color: rgba(128, 128, 128, 0.466);
   }
 }
+
+.certificados {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.897);
+}
+
