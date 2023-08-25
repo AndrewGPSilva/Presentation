@@ -420,6 +420,20 @@ textarea {
     margin-left: 30px;
   }  
 
+    
+  .certificados-textos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .btnMudarCor {
+    margin-bottom: 13px;
+    padding: 10px;
+  }
+
   .divisao-texto-about {
     margin-top: 35px;
   }
