@@ -474,8 +474,29 @@ textarea {
 
 .certificados {
   text-align: center;
+  color: black;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(199, 199, 199);
+}
+
+.certificados-alt {
+  text-align: center;
   color: white;
   padding: 20px;
   margin: 10px;
-  background-color: rgba(0, 0, 0, 0.897);
+  background-color: rgba(0, 0, 0, 0.897); 
+}
+
+.certificados-textos {
+  display: flex;
+  justify-content: center;
+}
+
+.btnMudarCor {
+  margin-left: 10px;
+}
+
+li {
+  list-style: none;
 }
