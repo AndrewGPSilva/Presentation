@@ -236,7 +236,6 @@ button {
   max-width: 140px;
   height: 40px;
   border-radius: 0.5em;
-  box-shadow: 0 0.625em 1em 0 rgba(30, 143, 255, 0.35);
   overflow: hidden;
 }
 
@@ -264,10 +263,6 @@ button div:nth-child(1) {
 
 button div:nth-child(2) {
   background-color: #21dc62;
-}
-
-button:hover {
-  box-shadow: 0 0.625em 1em 0 rgba(33, 220, 98, 0.35);
 }
 
 button:hover div {
@@ -428,7 +423,6 @@ textarea {
     margin-left: 30px;
   }  
 
-    
   .certificados-textos {
     display: flex;
     justify-content: center;
@@ -438,8 +432,12 @@ textarea {
   }
   
   .btnMudarCor {
-    margin-bottom: 13px;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+    margin: 15px;
   }
 
   .divisao-texto-about {
@@ -464,11 +462,6 @@ textarea {
     margin-top: 0px;
   }
 
-  .quer-me-conhecer {
-    display: block;
-    margin-bottom: 20px;
-  }
-
   .divisao-linha {
     display: block;
     height: 3px;
@@ -476,14 +469,11 @@ textarea {
     margin-bottom: 30px;
   }
 
-  .divisao-linha-dois {
-    display: block;
-    height: 3px;
-    background-color: black;
-    margin-top: 40px;
-  }
-
   .quer-me-conhecer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
     color: purple;
     font-family: monospace;
     font-weight: 800;
@@ -499,7 +489,8 @@ textarea {
   color: black;
   padding: 20px;
   margin: 10px;
-  background-color: rgb(199, 199, 199);
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
 }
 
 .certificados-alt {
@@ -513,12 +504,32 @@ textarea {
 .certificados-textos {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 
 .btnMudarCor {
-  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 22px;
 }
 
 li {
   list-style: none;
+}
+
+.links-certificados,
+#certificados {
+  font-size: 1.5em;
+}
+
+.links-certificados a:hover {
+  color: #21dc62;
+}
+
+#certificados h3 {
+  color: #0056b3;
 }
