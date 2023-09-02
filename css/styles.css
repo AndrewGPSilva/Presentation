@@ -12,8 +12,16 @@ html {
   font-family: "Passion One", cursive;
 }
 
-btMusic {
+.btMusic {
   margin-left: 10px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.btMusic img {
+  height: 25px;
 }
 
 main {
