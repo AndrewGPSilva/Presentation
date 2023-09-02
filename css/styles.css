@@ -71,9 +71,11 @@ body {
 }
 
 .dois-filho img {
-  width: 280px;
-  height: 280px;
+  width: 300px;
+  height: 300px;
   border-radius: 30%;
+  border: 3px solid rgb(0, 98, 128);
+  box-shadow: 3px 3px 3px rgb(255, 136, 0);
 }
 
 .filho-links-perfil a {
@@ -358,8 +360,11 @@ textarea {
   cursor: pointer;
 }
 
-.divisao-texto-about {
-  margin-top: 50px;
+.divisao-texto-certificados h2 {
+  text-align: center;
+  opacity: 0.3;
+  cursor: pointer;
+  margin-top: 40px;
 }
 
 .sobre p {
@@ -438,10 +443,6 @@ textarea {
     text-align: center;
     font-size: 22px;
     margin: 15px;
-  }
-
-  .divisao-texto-about {
-    margin-top: 35px;
   }
 
   .sobre-infos {
@@ -556,4 +557,12 @@ li {
 
 .btn-topo {
   display: none;
+}
+
+.container-certificados {
+  padding: 50px;
+}
+
+th, td {
+  font-size: 20px;
 }
