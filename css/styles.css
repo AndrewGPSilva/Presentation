@@ -18,10 +18,19 @@ html {
   text-align: center;
   display: flex;
   justify-content: center;
+  width: 50px;
+  background-color: transparent;
 }
 
 .btMusic img {
   height: 25px;
+}
+
+.btMusic:hover {
+  color: rgb(255, 0, 0);
+  background-color: rgba(128, 128, 128, 0.425);
+  border-radius: 20px;
+  transition: 0.5s;
 }
 
 main {
@@ -187,7 +196,7 @@ body {
 
 .skills-texto h2 {
   font-size: 2em;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .projects {
@@ -421,7 +430,7 @@ textarea {
   .form {
     justify-content: center;
     margin-left: 30px;
-  }  
+  }
 
   .certificados-textos {
     display: flex;
@@ -485,6 +494,8 @@ textarea {
 }
 
 .certificados {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   color: black;
   padding: 20px;
@@ -532,4 +543,8 @@ li {
 
 #certificados h3 {
   color: #0056b3;
+}
+
+.btn-topo {
+  display: none;
 }
