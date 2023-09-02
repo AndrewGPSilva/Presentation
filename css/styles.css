@@ -49,39 +49,6 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-.principal-um,
-.principal-tres {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: transparent;
-  height: 300px;
-  width: 70px;
-  text-align: center;
-  align-items: center;
-  padding: 10px;
-}
-
-.principal-dois {
-  background-color: transparent;
-  height: 300px;
-  width: 280px;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding: 10px;
-  color: black;
-  text-align: center;
-  box-sizing: border-box;
-}
-
-.principal-dois h2 {
-  opacity: 0.3;
-  cursor: pointer;
-}
-
-.principal-dois p {
-  font-size: 1.2em;
-}
-
 .icon-redes:hover {
   font-size: 3em !important;
 }
@@ -104,9 +71,15 @@ body {
 }
 
 .dois-filho img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+  border-radius: 30%;
+}
+
+.filho-links-perfil a {
+  display: block;
+  font-size: 30px;
+  margin: 50px;
 }
 
 .dois-filho p {
@@ -119,8 +92,6 @@ body {
 .skills {
   display: flex;
   justify-content: center;
-  margin-top: 90px;
-  padding: 10px;
   height: 200px;
   background-color: rgb(255, 255, 255);
 }
@@ -309,6 +280,10 @@ footer h2 {
   background-color: rgba(255, 255, 255, 0.753);
 }
 
+.containerLinksMobile {
+  display: none;
+}
+
 .navbar-nav {
   text-align: end;
 }
@@ -427,6 +402,22 @@ textarea {
   }
 
 @media (max-width: 768px) {
+  .filho-links-perfil {
+    display: none;
+  }
+
+  .containerLinksMobile {
+    display: flex;
+    justify-content: center;
+  }
+
+  .containerLinksMobile a {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 25px;
+    font-size: 25px;
+  }
+
   .form {
     justify-content: center;
     margin-left: 30px;
@@ -486,6 +477,7 @@ textarea {
     color: purple;
     font-family: monospace;
     font-weight: 800;
+    margin-bottom: 12px;
   }
 
   .quer-me-conhecer:hover {
