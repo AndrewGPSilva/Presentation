@@ -483,6 +483,23 @@ textarea {
   .quer-me-conhecer:hover {
     background-color: rgba(128, 128, 128, 0.466);
   }
+
+  .container-tec-cert {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: -15px;
+  }
+
+  .certificados {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+  }
 }
 
 .certificados {
