@@ -16,10 +16,3 @@ musicBt.addEventListener('click', ()=> {
         music.pause();
     }
 })
-
-const certificados = document.querySelector('#container-certificados');
-const btnMudarCor = document.querySelector('.btnMudarCor');
-
-btnMudarCor.addEventListener('click', ()=> {
-    certificados.classList.toggle("certificados-alt")
-})
