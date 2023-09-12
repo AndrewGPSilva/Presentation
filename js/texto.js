@@ -1,5 +1,5 @@
 const el = document.querySelector("#text-boas-vindas");
-const text= "MUNDO DO ANDREW";
+const text= "DEV BACK-END";
 const interval = 300;
 const btnTopo = document.getElementById('btnTopo');
 
