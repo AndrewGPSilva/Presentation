@@ -5,7 +5,7 @@ btn.addEventListener("click", () => {
     texto.classList.toggle("sobre-infos-ativado");
 })
 
-const music = new Audio('/musicas/Imagine Dragons - Demons (Official Music Video)(MP3_160K).mp3');
+const music = new Audio('/musicas/royalty.mp3');
 const musicBt = document.querySelector('#music');
 
 musicBt.addEventListener('click', ()=> {
