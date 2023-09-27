@@ -1,5 +1,5 @@
 const el = document.querySelector("#text-boas-vindas");
-const text= "DEV BACK-END";
+const text= "DEV FULLSTACK";
 const interval = 300;
 const btnTopo = document.getElementById('btnTopo');
 
